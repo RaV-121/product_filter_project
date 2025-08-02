@@ -1,11 +1,21 @@
-.App {
+:root{
+  --white-color:#fff;
+  --black-color:#282c34;
+  --lightGrey-color:#f5f5f5;
+}
+#root{
+  margin:0;
+  padding:0;
   text-align: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: var(--lightGrey-color);
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,18 +24,59 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: var(--white-color);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content:flex-start;
+  color: var(--black-color);
 }
-
-.App-link {
-  color: #61dafb;
+.App-header p{
+  font-size: calc(10px + 3vmin);
+  font-weight: bolder;
+}
+.MainContent{
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+input{
+  margin:1.5em auto;
+  padding: 0.5em;
+  border: none;
+  max-width: 15em;
+}
+.Filters{
+  margin: 0 auto;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+  max-width:60vw;
+  gap:2em;
+}
+.Filter{
+  text-align: left;
+}
+select{
+  padding: 0.5em;
+  border: none;
+  min-width: 15em;
+  width:100%;
+}
+.Products{
+  display: flex;
+  flex-direction: row;
+  margin: 3em auto;
+  gap:1.5em;
+  flex-wrap: wrap;
+}
+.Product{
+  background-color: var(--white-color);
+  width:18em;
+  min-height: 22em;
 }
 
 @keyframes App-logo-spin {
