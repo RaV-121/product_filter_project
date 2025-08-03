@@ -1,0 +1,113 @@
+[
+    {
+    "picture":"washingMachine",
+    "opis":"WW90T754ABT, Pralka QuickDrive™, 9 kg, biała",
+    "pojemnosc":{
+        "wartosc":9,
+        "jednostka":"kg"
+    },
+    "wymiary":[55,60,85],
+    "funkcje":["Drzwi AddWash™","Panel AI Control","Silnik Inwerterowy","Wyświetlacz elektroniczny"],
+    "klasa":"A",
+    "cena":3299.00,
+    "cenaWaznosc":["15.09.2022","21.09.2022"],
+    "popularnosc":5.0
+    },
+
+
+
+    {
+    "picture":"washingMachine2",
+    "opis":"WW10T654DLH, Pralka EcoBubble™, 10.5 kg, biała",
+    "pojemnosc":{
+        "wartosc":10.5,
+        "jednostka":"kg"
+    },
+    "wymiary":[55,60,85],
+    "funkcje":["Drzwi AddWash™","Panel AI Control","Silnik Inwerterowy","Wyświetlacz elektroniczny"],
+    "klasa":"B",
+    "cena":3199.00,
+    "cenaWaznosc":["15.09.2022","21.09.2022"],
+    "popularnosc":4.8
+    },
+
+
+    {
+    "picture":"washingMachine3",
+    "opis":"WW90T654DLH, Pralka EcoBubble™, 8 kg, biała",
+    "pojemnosc":{
+        "wartosc":8,
+        "jednostka":"kg"
+    },
+    "wymiary":[55,60,85],
+    "funkcje":["Drzwi AddWash™","Panel AI Control","Silnik Inwerterowy","Wyświetlacz elektroniczny"],
+    "klasa":"C",
+    "cena":3099.99,
+    "cenaWaznosc":["15.09.2022","21.09.2022"],
+    "popularnosc":4.6
+    },
+
+
+    {
+    "picture":"washingMachine",
+    "opis":"WW90T754ABT, Pralka QuickDrive™, 9 kg, biała",
+    "pojemnosc":{
+        "wartosc":9,
+        "jednostka":"kg"
+    },
+    "wymiary":[55,60,85],
+    "funkcje":["Drzwi AddWash™","Panel AI Control","Silnik Inwerterowy","Wyświetlacz elektroniczny"],
+    "klasa":"D",
+    "cena":3199.00,
+    "cenaWaznosc":["15.09.2022","21.09.2022"],
+    "popularnosc":4.4
+    },
+
+
+    {
+    "picture":"washingMachine2",
+    "opis":"WW10T654DLH, Pralka EcoBubble™, 10.5 kg, biała",
+    "pojemnosc":{
+        "wartosc":10.5,
+        "jednostka":"kg"
+    },
+    "wymiary":[55,60,85],
+    "funkcje":["Drzwi AddWash™","Panel AI Control","Silnik Inwerterowy","Wyświetlacz elektroniczny"],
+    "klasa":"E",
+    "cena":3299.99,
+    "cenaWaznosc":["15.09.2022","21.09.2022"],
+    "popularnosc":4.2
+    },
+
+
+    {
+    "picture":"washingMachine3",
+    "opis":"WW90T654DLH, Pralka EcoBubble™, 8 kg, biała",
+    "pojemnosc":{
+        "wartosc":8,
+        "jednostka":"kg"
+    },
+    "wymiary":[55,60,85],
+    "funkcje":["Drzwi AddWash™","Panel AI Control","Silnik Inwerterowy","Wyświetlacz elektroniczny"],
+    "klasa":"F",
+    "cena":3199.00,
+    "cenaWaznosc":["15.09.2022","21.09.2022"],
+    "popularnosc":4.0
+    },
+
+
+    {
+    "picture":"washingMachine",
+    "opis":"WW90T754ABT, Pralka QuickDrive™, 9 kg, biała",
+    "pojemnosc":{
+        "wartosc":9,
+        "jednostka":"kg"
+    },
+    "wymiary":[55,60,85],
+    "funkcje":["Drzwi AddWash™","Panel AI Control","Silnik Inwerterowy","Wyświetlacz elektroniczny"],
+    "klasa":"A",
+    "cena":3199.00,
+    "cenaWaznosc":["15.09.2022","21.09.2022"],
+    "popularnosc":3.5
+    }
+]
