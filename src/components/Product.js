@@ -1,15 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 function Product({item}) {
-
-      function lastNumberFromValue(value) {
-      const str = value.toString();
-      if (str.includes('.')) {
-        return str.split('.')[1];
-      } else {
-        return '00';
-      }
+  const [selected, setSelected] = useState(false);
+  // Handler for product picking button
+  const handleClick = () => {
+    setSelected(prev => !prev);
+  };
+  // Getting rest of the value
+  function lastNumberFromValue(value) {
+    const str = value.toString();
+    if (str.includes('.')) {
+      return str.split('.')[1];
+    } else {
+      return '00';
     }
+  }
 
   return (
     <div className="Product">
@@ -53,7 +58,7 @@ function Product({item}) {
           <div className="Installmetns">{(item.cena/60).toFixed(2)} zł x 60 rat</div>
         </div>
 
-        <button className="chooseButton">WYBIERZ</button>
+        <button className={selected ? "btn-selected chooseButton" : "btn-default chooseButton"} onClick={handleClick}> {selected ? "WYBRANE" : "WYBIERZ"}</button>
 
     </div>
   )
